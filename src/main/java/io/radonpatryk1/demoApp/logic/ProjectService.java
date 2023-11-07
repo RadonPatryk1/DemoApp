@@ -1,12 +1,8 @@
-package io.github.mat3e.logic;
+package io.radonpatryk1.demoApp.logic;
 
-import io.github.mat3e.TaskConfigurationProperties;
-import io.github.mat3e.model.Project;
-import io.github.mat3e.model.ProjectRepository;
-import io.github.mat3e.model.Task;
-import io.github.mat3e.model.TaskGroup;
-import io.github.mat3e.model.TaskGroupRepository;
-import io.github.mat3e.model.projection.GroupReadModel;
+import io.radonpatryk1.demoApp.TaskConfigurationProperties;
+import io.radonpatryk1.demoApp.model.*;
+import io.radonpatryk1.demoApp.model.projection.GroupReadModel;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

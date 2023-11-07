@@ -1,7 +1,7 @@
-package io.github.mat3e.adapter;
+package io.radonpatryk1.demoApp.adapter;
 
-import io.github.mat3e.model.Project;
-import io.github.mat3e.model.ProjectRepository;
+import io.radonpatryk1.demoApp.model.Project;
+import io.radonpatryk1.demoApp.model.ProjectRepository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

@@ -1,6 +1,6 @@
-package io.github.mat3e.model.projection;
+package io.radonpatryk1.demoApp.model.projection;
 
-import io.github.mat3e.model.Task;
+import io.radonpatryk1.demoApp.model.Task;
 
 import java.time.LocalDateTime;
 

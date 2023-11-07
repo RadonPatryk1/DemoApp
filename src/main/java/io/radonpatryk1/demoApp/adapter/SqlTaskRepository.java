@@ -1,7 +1,7 @@
-package io.github.mat3e.adapter;
+package io.radonpatryk1.demoApp.adapter;
 
-import io.github.mat3e.model.Task;
-import io.github.mat3e.model.TaskRepository;
+import io.radonpatryk1.demoApp.model.Task;
+import io.radonpatryk1.demoApp.model.TaskRepository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

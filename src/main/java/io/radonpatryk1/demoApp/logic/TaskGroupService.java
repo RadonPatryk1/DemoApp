@@ -1,10 +1,10 @@
-package io.github.mat3e.logic;
+package io.radonpatryk1.demoApp.logic;
 
-import io.github.mat3e.model.TaskGroup;
-import io.github.mat3e.model.TaskGroupRepository;
-import io.github.mat3e.model.TaskRepository;
-import io.github.mat3e.model.projection.GroupReadModel;
-import io.github.mat3e.model.projection.GroupWriteModel;
+import io.radonpatryk1.demoApp.model.TaskGroup;
+import io.radonpatryk1.demoApp.model.TaskGroupRepository;
+import io.radonpatryk1.demoApp.model.TaskRepository;
+import io.radonpatryk1.demoApp.model.projection.GroupReadModel;
+import io.radonpatryk1.demoApp.model.projection.GroupWriteModel;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

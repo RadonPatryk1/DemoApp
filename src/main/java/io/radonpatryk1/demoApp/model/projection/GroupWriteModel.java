@@ -1,6 +1,6 @@
-package io.github.mat3e.model.projection;
+package io.radonpatryk1.demoApp.model.projection;
 
-import io.github.mat3e.model.TaskGroup;
+import io.radonpatryk1.demoApp.model.TaskGroup;
 
 import java.util.Set;
 import java.util.stream.Collectors;

@@ -1,6 +1,6 @@
-package io.github.mat3e.controller;
+package io.radonpatryk1.demoApp.controller;
 
-import io.github.mat3e.TaskConfigurationProperties;
+import io.radonpatryk1.demoApp.TaskConfigurationProperties;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

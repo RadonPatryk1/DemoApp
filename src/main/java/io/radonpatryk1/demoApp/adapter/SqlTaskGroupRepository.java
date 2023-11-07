@@ -1,7 +1,7 @@
-package io.github.mat3e.adapter;
+package io.radonpatryk1.demoApp.adapter;
 
-import io.github.mat3e.model.TaskGroup;
-import io.github.mat3e.model.TaskGroupRepository;
+import io.radonpatryk1.demoApp.model.TaskGroup;
+import io.radonpatryk1.demoApp.model.TaskGroupRepository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

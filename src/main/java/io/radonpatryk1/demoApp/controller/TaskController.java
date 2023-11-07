@@ -1,21 +1,16 @@
-package io.github.mat3e.controller;
+package io.radonpatryk1.demoApp.controller;
 
-import io.github.mat3e.model.Task;
-import io.github.mat3e.model.TaskRepository;
+import io.radonpatryk1.demoApp.model.Task;
+import io.radonpatryk1.demoApp.model.TaskRepository;
+import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PatchMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
+
 import java.net.URI;
 import java.util.List;
 
